@@ -1,0 +1,104 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.changelogs-container { 
+  display: none;
+  position: absolute;
+  width: 800px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  min-height: 800px;
+  max-height: 800px;
+  background-color: #181b24;
+  padding: 1vh;
+  border-radius: 1vh;
+
+  overflow-y: auto;
+  font-size: 1vh;
+
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+/* CHANGES LIST + SCROLL BAR */
+
+.changelogs-container::-webkit-scrollbar, .wrapsecondary::-webkit-scrollbar {
+  width: 5px;
+}
+
+.changelogs-container::-webkit-scrollbar-track, .wrapsecondary::-webkit-scrollbar-track {
+  background: #1114199f;
+  /* display: none; */
+}
+
+.changelogs-container::-webkit-scrollbar-thumb, .wrapsecondary::-webkit-scrollbar-thumb {
+  background-color: #ff000025;
+  /* display: none; */
+}
+
+/* END */
+
+.box {
+  width: 100px;
+  line-height: 26px;
+  padding: 0 15px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #fff;
+  margin-right: 20px;
+  height: 25px;
+  margin: 5px;
+  margin-top: 2vh;
+  font-weight: bold;
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* COLORS OF BOXES */
+
+.green-box {
+  background-color: green;
+}
+
+.orange-box {
+  background-color: orange;
+}
+
+.red-box {
+  background-color: red;
+}
+
+/* END OF COLORS OF BOXES */
+
+.header {
+  color: white;
+  font-size: 4.5vh;
+}
+
+.changes-text {
+  color: white;
+  font-size: 1.5vh;
+  margin-bottom: 2vh;
+}
+
+.date {
+  color: rgb(187, 187, 187);
+  font-size: 2vh;
+  margin-bottom: 10px;
+}
+
+.bottom-line {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3vh;
+  width: 100px;
+  border-bottom: 1px solid red;
+}
